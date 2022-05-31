@@ -1,0 +1,27 @@
+<template>
+  <BaseAlert
+    text-color="text-green-700"
+    bg-color="bg-green-100"
+    dark-text-color="dark:text-green-800"
+    dark-bg-color="dark:bg-green-200"
+  >
+    <template v-if="props.title" #title> {{ props.title }}&nbsp; </template>
+
+    <template #default>
+      {{ props.message }}
+    </template>
+  </BaseAlert>
+</template>
+
+<script setup lang="ts">
+import BaseAlert from './BaseAlert.vue';
+
+interface Props {
+  title?: string;
+  message: string;
+}
+
+const props = defineProps<Props>();
+</script>
+
+<style scoped></style>

@@ -1,0 +1,28 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": [
+    "src/service-worker"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": [
+      "@intlify/vite-plugin-vue-i18n/client",
+      "vite-plugin-pwa/client"
+    ],
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable",
+      "WebWorker"
+    ],
+    "paths": {
+      "@/*": ["./src"]
+    }
+  },
+  "references": [
+    {
+      "path": "./tsconfig.vite-config.json"
+    }
+  ]
+}

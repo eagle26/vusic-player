@@ -1,0 +1,30 @@
+{
+notifications: {
+  locale_updated: "El idioma de la interfaz ha sido actualizada!"
+},
+modals: {
+  close: "Cerrar",
+  change_language: "Cambiar Idioma"
+},
+forms: {
+  save: "Guardar",
+  update: "Actualizar",
+  register: "Registrarse",
+  login: "Loguearse"
+},
+  menu: {
+    about: "Acerca de",
+    home: "Inicio",
+    manage: "Administración",
+    login: "Acceder / Registrarse",
+    language: "Idioma",
+    logout: "Salir"
+  },
+  home: {
+    title: "Escucha excelente musica!",
+    subtitle: "Llena tu mundo con las canciones, los álbumes y los artistas que te definen. Obtenga acceso ilimitado a \
+    millones de  canciones, listas de reproducción seleccionadas y contenido original de los artistas que conoces y amas. \
+    Experimenta el audio sin pérdidas y escucha sonido a tu alrededor con Spatial Audio con Dolby Atmos.",
+    widget_title: "Lista the Reproducción"
+  }
+}
